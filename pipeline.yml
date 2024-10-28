@@ -1,0 +1,5 @@
+steps:
+  - label: ":pipeline:"
+    command: "buildkite-agent pipeline upload"
+  - label: ":trial:"
+    command: "echo 'this is a trial'"
